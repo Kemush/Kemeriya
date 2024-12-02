@@ -64,10 +64,12 @@
   h3 {
     font-size: 16px;
     font-weight: normal; /* Reduce boldness for the name */
+    margin-bottom: 3px;
   }
   
   p {
     margin: 5px 0;
+    
   }
   
   strong {

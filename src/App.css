@@ -1,5 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;  /* Remove default margin */
+  padding: 0;  /* Remove default padding */
+  display: flex;
+  flex-direction: column; /* This ensures the app stretches to fill the page */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .app {
-  padding: 30px;
+  padding: 10px;
+  flex: 1; /* This ensures that your main app content fills the available space */
+  flex-direction: column;
   background-color: rgb(236, 233, 233); 
 }
 
@@ -24,7 +40,7 @@
 
 form input {
   width: 100%;
-  padding: 8px;
+  padding: 0;
   margin: 10px 0;
 }
 
