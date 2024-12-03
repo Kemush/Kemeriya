@@ -12,7 +12,7 @@
   }
   
   .modal-box {
-    background-color: white;
+    background-color: rgb(242, 242, 247);
     padding: 20px;
     width: 600px;
     border-radius: 8px;
@@ -35,8 +35,9 @@
   .modal-content input {
     padding: 8px;
     font-size: 14px;
-    width: 100%;
-    margin-top: 5px;
+    width: 95%;
+    border-radius: 8px;
+    margin-top: 10px;
   }
   
   .modal-footer {

@@ -16,7 +16,7 @@ html, body {
   padding: 10px;
   flex: 1; /* This ensures that your main app content fills the available space */
   flex-direction: column;
-  background-color: rgb(236, 233, 233); 
+  background-color: rgb(243, 250, 250); 
 }
 
 .add-btn {
